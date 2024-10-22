@@ -53,3 +53,25 @@
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    background-color: #f39c12;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-custom:hover {
+    background-color: #d35400;
+    color: white;
+}
+
+/* Dark card for Lifestyle Photography */
+.card-dark {
+    background-color: #2c3e50;
+    color: white;
+} 
