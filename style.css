@@ -75,3 +75,31 @@
     background-color: #2c3e50;
     color: white;
 } 
+
+.custom-button {
+    background: linear-gradient(to right, #fad0c4, #ff9a9e);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+}
+.custom-button:hover {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.custom-img-group {
+    display: grid;
+   
+    gap: 10px;
+}
+.custom-img-group img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.col-md-3, .col-md-6 {
+    padding: 0;
+}
