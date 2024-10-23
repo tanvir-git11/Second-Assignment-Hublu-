@@ -187,3 +187,9 @@ form, .contact-info {
         font-size: 0.85rem;
     }
 }
+
+@media (max-width: 576px) {
+    .description {
+      font-size: 1px; /* Adjust the size for the paragraph */
+    }
+  }
