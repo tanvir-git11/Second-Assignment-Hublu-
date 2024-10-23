@@ -103,3 +103,25 @@
 .col-md-3, .col-md-6 {
     padding: 0;
 }
+
+.contact-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.info-box {
+    background-color: #f3e9ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.info-box i {
+    color: #a452ff;
+    font-size: 24px;
+}
+.info-box .info-text {
+    color: #333;
+}
+.info-box .info-text h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
