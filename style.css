@@ -190,6 +190,33 @@ form, .contact-info {
 
 @media (max-width: 576px) {
     .description {
-      font-size: 1px; /* Adjust the size for the paragraph */
+      font-size: 1px;
     }
+  }
+  @media (max-width: 576px) {
+    
+    img {
+      width: 80%;
+      height: auto; 
+    }
+
+    
+    .hero-left {
+      text-align: center; 
+    }
+
+   
+    h1 {
+      font-size: 2.5rem; 
+    }
+    p {
+      font-size: 1rem; 
+    }
+    .get-started-btn {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+      }
   }
